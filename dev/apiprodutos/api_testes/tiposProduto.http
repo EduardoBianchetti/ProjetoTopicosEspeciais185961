@@ -1,0 +1,39 @@
+@apiUrl = http://localhost:3000/api
+# Obter a lista de tipos de produto
+GET {{apiUrl}}/tiposproduto
+Content-Type: application/json
+###
+
+# Inserir novo tipo de produto
+POST {{apiUrl}}/tiposproduto
+Content-Type: application/json
+
+{
+ "descricao": "Eletrodoméstico"
+}
+###
+
+# Alterar tipo de produto
+PUT {{apiUrl}}/tiposproduto
+Content-Type: application/json
+
+{
+ "_id": "625cb0b9a9f79e18b39d5941",
+ "descricao": "Eletrodomésticos"
+}
+
+###
+# Excluir um tipo de produto
+DELETE {{apiUrl}}/tiposproduto/625cb0aea9f79e18b39d593f
+Content-Type: application/json
+###
+
+# Obter pelo id de tipo de produto
+GET {{apiUrl}}/tiposproduto/625cb0b9a9f79e18b39d5941
+Content-Type: application/json
+
+###
+# Obter tipo de produto filtrando
+GET {{apiUrl}}/tiposproduto/filtro/Eletrodomésticos
+Content-Type: application/json
+###

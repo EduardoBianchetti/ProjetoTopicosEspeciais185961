@@ -1,0 +1,42 @@
+@apiUrl = http://localhost:3000/api
+# Obter a lista de usuarios
+GET {{apiUrl}}/usuarios
+Content-Type: application/json
+###
+
+# Inserir novo usuario
+POST {{apiUrl}}/usuarios
+Content-Type: application/json
+
+{
+ "nome": "Eduardo Bonamigo Bianchetti", "email": "185961@upf.br",
+ "senha": "123"
+}
+###
+
+# Alterar usuario
+PUT {{apiUrl}}/usuarios
+Content-Type: application/json
+
+{
+ "_id": "625caefea9f79e18b39d591e",
+ "nome": "Eduardo alterado",
+ "email": "185961alterado@upf.br",
+ "senha": "321"
+}
+
+###
+# Excluir um usuario
+DELETE {{apiUrl}}/usuarios/625cafcba9f79e18b39d5928
+Content-Type: application/json
+###
+
+# Obter pelo id de usuario
+GET {{apiUrl}}/usuarios/625cafcba9f79e18b39d5928
+Content-Type: application/json
+
+###
+# Obter usuario filtrando
+GET {{apiUrl}}/usuarios/filtro/185961
+Content-Type: application/json
+###

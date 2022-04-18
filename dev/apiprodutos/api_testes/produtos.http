@@ -1,0 +1,44 @@
+@apiUrl = http://localhost:3000/api
+# Obter a lista de produtos
+GET {{apiUrl}}/produtos
+Content-Type: application/json
+###
+
+# Inserir novo produto
+POST {{apiUrl}}/produtos
+Content-Type: application/json
+
+{
+ "nome": "Televisão", "marca": "LG",
+ "descricao": "42 Polegadas", "valorUnitario": "2500", 
+ "tipoProduto": "625cb0b9a9f79e18b39d5941", "usuario": "625cafbca9f79e18b39d5926"
+}
+###
+
+# Alterar produto
+PUT {{apiUrl}}/produtos
+Content-Type: application/json
+
+{
+ "_id": "625cb2b79cfd99fcad4bd73f",
+ "nome": "Televisão Editada", 
+ "marca": "LG Editada",
+ "descricao": "42 Polegadas Editada", 
+ "valorUnitario": "2600" 
+}
+
+###
+# Excluir um produto
+DELETE {{apiUrl}}/produtos/625cb2719cfd99fcad4bd733
+Content-Type: application/json
+###
+
+# Obter pelo id de produto
+GET {{apiUrl}}/produtos/625cb2d49cfd99fcad4bd749
+Content-Type: application/json
+
+###
+# Obter produto filtrando
+GET {{apiUrl}}/produtos/filtro/Editada
+Content-Type: application/json
+###

@@ -1,0 +1,1 @@
+mongod --port 27018 --dbpath D:\ProjetoTopicosEspeciais185961\mongo\baseprodutos --auth
