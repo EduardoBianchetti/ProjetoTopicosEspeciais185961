@@ -11,7 +11,7 @@ Content-Type: application/json
 {
  "nome": "Televisão", "marca": "LG",
  "descricao": "42 Polegadas", "valorUnitario": "2500", 
- "tipoProduto": "625cb0b9a9f79e18b39d5941", "usuario": "625cafbca9f79e18b39d5926"
+ "tipoProduto": "625f3c03eb5f2ea4ad28473a", "usuario": "625f3beceb5f2ea4ad284736"
 }
 ###
 
