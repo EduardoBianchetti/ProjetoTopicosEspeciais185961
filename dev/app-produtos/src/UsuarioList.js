@@ -12,8 +12,9 @@ const UsuarioList = (props) => {
       <button className="btn btn-primary btn-sm" onClick={props.inserir}>
         Inserir
       </button>
-
-      <table className="table">
+      <br />
+      <br />
+      <table class="table table-bordered border-dark">
         <thead>
           <tr>
             <th>Index</th>

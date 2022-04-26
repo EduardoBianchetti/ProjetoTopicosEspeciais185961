@@ -53,7 +53,6 @@ const ProdutoForm = (props) => {
           className="form-control"
           type="text"
           name="tipoProduto"
-          value={props.produto.tipoProduto}
           onChange={handleInputChange}
         />
       </div>
@@ -63,7 +62,6 @@ const ProdutoForm = (props) => {
           className="form-control"
           type="text"
           name="usuario"
-          value={props.produto.usuario}
           onChange={handleInputChange}
         />
       </div>

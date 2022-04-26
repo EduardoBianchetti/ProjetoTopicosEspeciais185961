@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Principal from "./Principal";
 import "primereact/resources/themes/saga-blue/theme.css";

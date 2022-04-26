@@ -1,3 +1,5 @@
+import React from "react";
+
 const ProdutoList = (props) => {
   return (
     <div>
@@ -12,8 +14,9 @@ const ProdutoList = (props) => {
       <button className="btn btn-primary btn-sm" onClick={props.inserir}>
         Inserir
       </button>
-
-      <table className="table">
+      <br />
+      <br />
+      <table class="table table-bordered border-dark">
         <thead>
           <tr>
             <th>Index</th>
@@ -23,6 +26,8 @@ const ProdutoList = (props) => {
             <th>Descrição</th>
             <th>Data e Hora Criado</th>
             <th>Valor Unitário</th>
+            <th>Tipo Produto</th>
+            <th>Usuário</th>
             <th>Operações</th>
           </tr>
         </thead>
@@ -37,6 +42,8 @@ const ProdutoList = (props) => {
                 <td>{o.descricao}</td>
                 <td>{o.dataHoraCriada}</td>
                 <td>{o.valorUnitario}</td>
+                <td>{o.tipoProduto.descricao}</td>
+                <td>{o.usuario.nome}</td>
                 <td>
                   <button
                     onClick={() => props.editar(o._id)}
