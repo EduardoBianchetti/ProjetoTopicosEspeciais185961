@@ -1,2 +1,2 @@
-mongod --port 27018 --dbpath D:\ProjetoTopicosEspeciais185961\mongo\baseprodutos --auth
-rem mongod --port 27018 --dbpath C:\Users\185961\Documents\ProjetoTopicosEspeciais185961\mongo\baseprodutos --auth
+rem mongod --port 27018 --dbpath D:\ProjetoTopicosEspeciais185961\mongo\baseprodutos --auth
+ mongod --port 27018 --dbpath C:\Users\185961\Documents\ProjetoTopicosEspeciais185961\mongo\baseprodutos --auth

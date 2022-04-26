@@ -14,7 +14,7 @@ const UsuarioList = (props) => {
       </button>
       <br />
       <br />
-      <table class="table table-bordered border-dark">
+      <table className="table table-bordered border-dark">
         <thead>
           <tr>
             <th>Index</th>

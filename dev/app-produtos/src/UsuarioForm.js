@@ -8,6 +8,8 @@ const UsuarioForm = (props) => {
   return (
     <form>
       <div className="form-group">
+        <br />
+        <br />
         <label>Nome</label>
         <input
           className="form-control"

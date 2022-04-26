@@ -8,6 +8,8 @@ const TipoProdutoForm = (props) => {
   return (
     <form>
       <div className="form-group">
+        <br />
+        <br />
         <label>Descrição</label>
         <input
           className="form-control"

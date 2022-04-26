@@ -4,10 +4,10 @@ const Cabecalho = (props) => {
 
   return (
     <div>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div className="container-fluid">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -15,28 +15,28 @@ const Cabecalho = (props) => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <ul class="navbar-nav">
-            <li class="nav-item">
+          <ul className="navbar-nav">
+            <li className="nav-item">
               <button
-                class="btn bg-dark text-light"
+                className="btn bg-dark text-light"
                 onClick={props.clickProduto}
               >
                 Produto
               </button>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <button
-                class="btn bg-dark text-light"
+                className="btn bg-dark text-light"
                 onClick={props.clickTipoProduto}
               >
                 Tipo de Produto
               </button>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <button
-                class="btn bg-dark text-light"
+                className="btn bg-dark text-light"
                 onClick={props.clickUsuario}
               >
                 Usuário

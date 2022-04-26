@@ -16,7 +16,7 @@ const ProdutoList = (props) => {
       </button>
       <br />
       <br />
-      <table class="table table-bordered border-dark">
+      <table className="table table-bordered border-dark">
         <thead>
           <tr>
             <th>Index</th>
@@ -44,6 +44,7 @@ const ProdutoList = (props) => {
                 <td>{o.valorUnitario}</td>
                 <td>{o.tipoProduto.descricao}</td>
                 <td>{o.usuario.nome}</td>
+
                 <td>
                   <button
                     onClick={() => props.editar(o._id)}

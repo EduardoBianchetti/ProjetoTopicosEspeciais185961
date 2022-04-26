@@ -29,7 +29,7 @@ Content-Type: application/json
 
 ###
 # Excluir um produto
-DELETE {{apiUrl}}/produtos/625cb2719cfd99fcad4bd733
+DELETE {{apiUrl}}/produtos/625f3c36eb5f2ea4ad284740
 Content-Type: application/json
 ###
 
